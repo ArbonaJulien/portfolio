@@ -20,20 +20,29 @@ section.home {
           align-items: center;
   height: 100vh;
   color: white;
-  background-color: #0a1e31;
+  background-color: #162029;
   text-align: center;
 }
 
 section.home .high {
-  color: palevioletred;
+  color: #00e1ff;
 }
 
 section.home button {
+  margin-top: 20px;
   background: none;
   border: 2px solid white;
   color: white;
   font-size: 1.2em;
   padding: 10px 20px;
   cursor: pointer;
+  -webkit-transition: background-color 1s, border 1s, color 1s;
+  transition: background-color 1s, border 1s, color 1s;
+}
+
+section.home button:hover {
+  background-color: #00e1ff;
+  border: 2px solid #00e1ff;
+  color: #162029;
 }
 /*# sourceMappingURL=style.css.map */
